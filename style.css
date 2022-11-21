@@ -1,0 +1,158 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+
+.a{
+
+    height: auto;
+    background-color: rgb(50, 255, 129);
+    text-align: right;
+    padding-top: 5px;
+    flex-wrap: wrap;   
+    padding-bottom: 5px;
+    
+
+}
+
+.a li{
+
+height: auto;
+display: inline;
+padding-right: 60px;
+color: black;
+flex-wrap: wrap;
+
+}
+
+.b{
+
+    /* height: auto; */
+    background-color:rgb(50, 212, 112);
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+} 
+
+.b1{
+    /* height: auto; */
+    width: 70%;
+    background-color: lightblue;
+    text-align: center;
+    padding-bottom: 35px; 
+    display: flex;
+    
+    
+    
+
+}
+
+
+
+.b2{
+
+    
+    width: 30%;
+    background-color: coral;
+    text-align: right;
+    
+    
+    
+    
+}
+
+.c{
+
+    height: auto;
+    background-color: rgb(209, 255, 218);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 150px;
+    flex-wrap: wrap;
+    
+}
+
+.c li{
+    height: auto;
+    display: inline;
+    padding-right: 150px;
+    color: black;
+    text-decoration: none;
+    flex-wrap: wrap;
+    
+}
+
+.fa {
+    
+    padding-top: 28px;
+    padding-left: 40px;
+    
+
+}
+
+input{
+    border-color: white;
+    height:30px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left:20px;
+    
+    
+}
+a{
+    margin-left: -40px;
+    margin-top: 6px;
+    
+}
+img{
+    
+    margin-top: 15px;
+}
+button{
+    height: auto;
+    border-radius: 16px;
+    border-color: white;
+    margin-left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 30px;
+    background-color: rgb(47, 217, 160);
+    
+    
+}
+@media(max-width:780px){
+       .a{width: 100%;}
+     .a li{width: 50%;}
+    .b .b1{width: 50%;}
+    .b .b2{width: 50%;}
+       .c{width: 100%;}
+     .c li{width: 50%;}
+    image{width: 100%;}
+    button{width: 50%;} 
+     input{width: 50%;}
+ .fa-child{width: 50%;}
+.fa-search{width: 50%;}
+    
+}
+@media(max-width:500px){
+        .a{width: 100%;}
+     .a li{width: 100%;}
+    .b .b1{width: 100%;}
+    .b .b2{width: 100%;}
+        .c{width: 100%;}
+     .c li{width: 100%;}
+     image{width: 100%;}
+    button{width: 100%;}
+     input{width: 100%;}
+  .fa-child{width: 50%;}
+  .fa-search{width:50%;}
+  
+}
