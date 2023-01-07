@@ -1,0 +1,619 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+/* HEADER START */
+
+.topbar{
+    height: auto;
+    background-color:  #CFA670;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    
+
+
+}
+
+.topbarleft{
+    padding-left: 180px;
+}
+
+
+.topbarleft ul li{
+    display: inline-flex;
+    color: #ffffff;
+    margin: 10px 20px 10px 0px;
+    cursor: pointer;
+   
+
+
+}
+
+.fa-map-marker::after{
+    content: "732/21 Second Street,King Street,UK";
+    color: #ffffff;
+    margin-left: 15px;
+    font-family:"Lato";
+    font-size: 16px;
+
+}
+
+.fa-phone::after{
+    content: "+65.4566743";
+    color: #ffffff;
+    margin-left: 10px;
+    font-family:"Lato";
+    font-size: 16px;
+    
+    
+}
+
+
+.topbarright ul li{
+    display: inline;
+    color: #ffffff;
+    margin-right: 10px;
+    font-family:"Lato";
+    font-size: 15px;
+    cursor: pointer;
+
+    
+}
+
+.topbarright ul li a{
+    color: #ffffff;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+  
+}
+
+.main{
+
+    height: auto; 
+    background: url("https://themes.themegoods.com/grandrestaurantv6/wp-content/uploads/2021/01/omelette-with-broccoli-tomatoes-and-red-onions-in-ZJN389S.jpg");
+    background-position-y:-150px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: grid;
+    background-attachment:fixed;
+    
+}
+.main .frontbar{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: auto;
+    
+} 
+
+.logo{
+    height: 100px;
+}
+
+.logo img{
+    margin-left: 180px;
+    margin-top: 40px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-right:30px ;
+    margin-top: 40px;
+}
+
+.navbar ul li a{
+
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Lato";
+  
+}
+.navbar ul li button{
+
+    height: 40px;
+    width: 140px;
+    background: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.main span{
+    color: #CFA670;
+    font-family: "Kristi";
+    font-size: 70px;
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 150px;
+}
+.main h2{
+    color: #ffffff; 
+    margin-left: 170px;
+    font-family: "Lato";
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.main h4{
+    color: #ffffff;
+    font-family: "Lato";
+    margin-left: 170px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.main h5{
+    
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: 20px;
+    margin-bottom: 250px;
+}
+
+/* HEADER END */
+/* PAGE 2 START  */
+.main2{
+
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+  
+}
+
+.main2 h6{
+    font-family: "Lato";
+    font-size: 28px;
+    line-height: 50px;
+
+}
+
+.main2 h5{
+    font-family: "Lato";
+    margin-top: 15px;
+}
+
+.main2 h4{
+    font-family: "Kristi";
+    font-size: 50px;
+    margin: 15px;
+}
+
+.story{
+    height: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 30%;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.story .storyleft,.main5 .main5left,.main6 .main6left{
+    height: 450px;
+    
+  
+}
+.story .storyright,.main5 .main5right,.main6 .main6right{
+   
+    margin-left: 20px;  
+    height: 450px;
+    z-index: 0;
+    
+
+}
+
+.story .discover,.main5 .menu,.main6 .visit{
+
+ margin-left:-30px;
+ background-color: #ffffff;
+ box-shadow: 1px 10px 20px 1px  gray;
+ padding:0px 50px;
+ animation: purwang  28s infinite;
+ text-align: center;
+ border-radius: 2%;
+
+}
+
+.story .discover span,.main5 .menu span,.main6 .visit span{
+    font-family: "Kristi";
+    font-size: 60px;
+    margin-top: 100px;
+    display: block;
+    color: #CFA670;
+}
+
+.story .discover h5,.main5 .menu h5,.main6 .visit h5{
+    font-size: 50px;
+    font-family: "Lato";
+    
+}
+
+.story .discover img,.main5 .menu img,.main6 .visit img{
+    margin-top: 10px;
+}
+
+.story .discover p,.main5 .menu p,.main6 .visit p{
+  font-size: 16px;
+  font-family: "Lato";
+  line-height: 30px;
+
+}
+
+.story .discover a,.main5 .menu a,.main6 .visit a{
+    color: #CFA670;
+    font-family: "Lato";
+    font-size: 18px;
+    margin-top:30px;
+    margin-bottom:50px;
+    display: inline-block;
+   
+}
+
+@keyframes purwang{
+
+     0%{transform: translateY(100px);}
+     25%{transform: translateY(0px);}
+    50%{transform: translateY(-100px);}
+    75%{transform: translateY(0px);}
+    100%{transform: translateY(100px);}
+    
+
+     
+}
+/* PAGE 2 END  */
+/* PAGE 3 START  */
+.main3{
+   
+    height: auto;
+    background:url("https://themes.themegoods.com/grandrestaurantv6/wp-content/uploads/2015/04/eric-mcnew-WWtubRjKXK8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -350px ;
+    background-attachment:scroll;
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 45px;
+    
+    
+}
+
+.main3 h6, .main4 h6{
+    color: #CFA670;
+    font-size: 85px;
+    font-family: "Kristi";
+    display: inline-block;
+    margin-top: 80px;
+   
+}
+
+.main3 h4,.main4 h4{
+    color: #ffffff;
+    font-size: 65px;
+    font-family: "Lato";
+  
+}
+
+.main3 .gp1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    height: auto;
+    margin-top: 100px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.main3 .gp1 .p1 .p11,.main3 .gp1 .p2 .p22,.main3 .gp1 .p3 .p33,.main3 .gp1 .p4 .p44{
+    height: 400px;
+    
+}
+
+.main3 .gp1 span,.main4 .gp2 span{
+    font-family: "Lato";
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.main3 .gp1 p,.main4 .gp2 p{
+
+    font-family: "Lato";
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+/* PAGE 3 END  */
+/* PAGE 4 START  */
+
+.main4{
+
+    height: auto;
+    background: url("https://themes.themegoods.com/grandrestaurantv6/wp-content/uploads/2021/01/baked-salmon-fish-garnished-with-broccoli-and-brus-PQE8GVZ.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 190px ;
+    text-align: center;
+    padding-bottom: 125px;
+
+}
+
+ .main4 .gp2{
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+.main4 .gp2 .p5 .p55,.main4 .gp2 .p6 .p66,.main4 .gp2 .p7 .p77,.main4 .gp2 .p8 .p88{
+    height: 400px;
+}
+/* PAGE 4 END  */
+/* PAGE 5 START  */
+
+.main5{
+  
+    height: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 30%;
+    padding-top: 50px;
+    padding-left: 200px;
+    margin-top: 100px;
+}
+
+.main5 .main5left{
+    display: grid;
+    grid-template-rows: 50% 50%;
+   
+}
+.main5 .main5right{
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.main5 .main5left .main5lefttop,.main5 .main5right .main5righttop{
+    margin-bottom: 20px;
+   
+
+}
+/* PAGE 5 END  */
+/* PAGE 6 START  */
+.main6{
+   
+    height: auto;
+    display: grid;
+    grid-template-columns: 30% 25% 25%;
+    padding-top: 50px;
+    margin-top: 200px;
+    padding-left: 200px;
+}
+/* PAGE 6 END  */
+/* FOOTER START  */
+.main7{
+
+    height: auto;
+    background-color: #262626;
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 100px 0px;
+   
+}
+
+.main7 .main7left{
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+  
+}
+.main7 .main7left .grand {
+    padding-left: 190px;
+}
+.main7 .main7left .grand .ln{
+    height:50px;
+    width: 55%;
+}
+
+.main7 .main7left p{
+    font-family: "Lato";
+    color: #999999;
+    line-height: 30px;
+    margin: 20px 0px;
+
+}
+
+.main7 .main7left .fo ul li{
+   display: inline;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.main7 .main7left .fo ul li a{
+    color: #ffffff;
+}
+
+.main7 .main7left .over ul li,.main7 .main7left .res ul li,.main7 .main7right .con ul li,.main7 .main7right ul li{
+    list-style: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: "Lato";
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.fa-envelope::after{
+ content: "Info@grandrestauranttheme.com";
+ font-size: 16px;
+ font-family: "Lato";
+ margin-left: 10px;
+}
+
+.fa-chain::after{
+content: "grandrestauranttheme.com";
+font-size: 16px;
+font-family: "Lato";
+margin-left: 10px;
+
+}
+.main7 .main7right{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.end{
+    height: auto;
+    background-color: black;
+    border-top: 1px solid #999999;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.end .endleft{
+    color: #999999;
+    line-height: 50px;
+    padding-left: 190px;
+    
+}
+
+.end .endleft .fa-copyright::after{
+ content: " Copyright Grand Restaurant Theme Demo - Theme by ThemeGoods";
+ font-size: 12px;
+ color: #999999;
+font-family: "Lato";
+
+}
+
+.end .endright{
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+.end .endright ul li{
+    display: inline;
+    color: #ffffff;
+    font-family: "Lato";
+    margin-right: 20px;
+    font-size: 14px;
+    
+
+}
+
+/* FOOTER END  */
+@media(max-width:1300px){
+.topbarleft{padding-left: 50px;}
+.logo img{margin-left: 50px;}
+.main span{margin-left:50px ; margin-top: 100px;}
+.main h4{margin-left: 50px; }
+.main h5{margin-left: 50px;}
+.main h2{margin-left: 50px;}
+.main .frontbar{grid-template-columns: 40% 60%;}
+.story,.main5{padding-left: 100px;grid-template-columns: 30% 30% 30% ;}        
+.story .discover{padding: 0px 15px;}
+.main3 .gp1 span,.main4 .gp2 span{font-size: 15px;}
+.main6{padding-left: 100px;grid-template-columns: 35% 30% 35%;}
+.main7 .main7left .grand {padding-left: 100px;}
+.main7 .main7right .loc{margin-left: 50px;}
+
+
+
+
+}
+
+
+@media(max-width:1200px){
+.topbarleft{width: 40%;}
+.topbarright{width:60%;}
+.main span{margin-top: 50px;}
+.story,.main5{padding-left: 20px;grid-template-columns: 35% 35% 30%;}
+.main6{padding-left: 20px;grid-template-columns: 40% 30% 30%;}
+.main7 .main7left .grand {padding-left: 50px;}
+.end .endleft{padding-left: 100px;}
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:1000px){
+    .topbarleft{width: 20%;}
+    .topbarright{width: 80%;}
+    .main .frontbar{grid-template-columns: 25% 75%;}
+    .main{background-size: auto;}
+    .main h4{font-size: 18px; }
+    .main h5{font-size: 18px;}
+    .main h2{font-size: 50px;}
+    .main span{font-size: 60px;}
+    .story,.main5{grid-template-columns: 50% 50% ;}
+    .story .discover{width: 100%; padding:0px 30px;}
+    .main3 .gp1 , .main4 .gp2 {grid-template-columns: 2fr 2fr;}
+    .main3 h6, .main4 h6{font-size: 65px;}
+    .main3 h4, .main4 h4{font-size: 45px;}
+    .main6{grid-template-columns: 50% 50%;}
+    .main7{grid-template-columns: 2fr;}
+    .main7 .main7left{grid-template-columns: 30% 30% 30%;margin-bottom: 100px;}
+    .main7 .main7left .grand {padding-left: 30px;}
+    .end .endleft{padding-left: 20px;}
+    
+ 
+    
+}
+
+@media(max-width:800px){
+    .topbarleft{width: 10%;}
+    .topbarright{width: 90%;}
+   .main .frontbar .logo img{height: 30%;margin-left:10px;}
+   .navbar ul li a{font-size: 14px;}
+   .navbar ul li{margin-right: 15px;}
+   .main h4{margin-left: 10px; }
+   .main h5{margin-left: 10px;}
+   .main h2{margin-left: 10px;}
+   .main span{margin-left: 10px;}
+   .story .discover,.main5 .menu{width: 200%; padding:0px 30px;}
+   .main6{grid-template-columns: 100%;}
+   .main6 .main6right,.main6 .main6left{width:100%;}
+   .main6 .main6right{margin-left: 0px; margin-top: 20px;}
+   .main7 .main7left{grid-template-columns: 40% 35% 25%;margin-bottom: 100px;}
+   .end{grid-template-columns: 100%;}
+   .end .endright{text-align: left; padding-left: 20px;}
+  
+}
+
+@media(max-width:600px){
+    .main h4{font-size: 16px; }
+    .main h5{font-size: 16px;}
+    .main h2{font-size: 40px;}
+    .main span{font-size: 50px;}
+    .main3 .gp1,.main4 .gp2 {grid-template-columns: 2fr;}
+    .main3 h6, .main4 h6{font-size: 55px;}
+    .main3 h4, .main4 h4{font-size: 35px;}
+    .main7 .main7left{grid-template-columns: 50% 25% 25%;margin-bottom: 100px;}
+    .main7 .main7right{grid-template-columns: 100%;}
+    .main7 .main7right .loc{margin-left: 0px;margin-top: 30px;}
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
