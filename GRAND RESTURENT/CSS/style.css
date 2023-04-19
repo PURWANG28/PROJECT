@@ -73,7 +73,7 @@
 .main{
 
     height: auto; 
-    background: url("https://themes.themegoods.com/grandrestaurantv6/wp-content/uploads/2021/01/omelette-with-broccoli-tomatoes-and-red-onions-in-ZJN389S.jpg");
+    background-image: url("../IMAGES/bg main.jpg");
     background-position-y:-150px;
     background-repeat: no-repeat;
     background-size:cover;
@@ -270,7 +270,7 @@
 .main3{
    
     height: auto;
-    background:url("https://themes.themegoods.com/grandrestaurantv6/wp-content/uploads/2015/04/eric-mcnew-WWtubRjKXK8-unsplash.jpg");
+    background-image: url("../IMAGES/eric-mcnew-WWtubRjKXK8-unsplash.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-position-y: -350px ;
@@ -335,7 +335,7 @@
 .main4{
 
     height: auto;
-    background: url("https://themes.themegoods.com/grandrestaurantv6/wp-content/uploads/2021/01/baked-salmon-fish-garnished-with-broccoli-and-brus-PQE8GVZ.jpg");
+    background: url("../IMAGES/baked-salmon-fish-garnished-with-broccoli-and-brus-PQE8GVZ.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 190px ;
